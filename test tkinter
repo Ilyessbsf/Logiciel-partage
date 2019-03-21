@@ -1,0 +1,19 @@
+from Tkinter import *
+
+fenetre = Tk()
+fenetre.geometry("500x500")
+ 
+ 
+connexion = Frame(fenetre,borderwidth=5,relief=FLAT,background='black')
+connexion.grid(row=0, column=0)
+
+
+boutton_connexion = Label(connexion, text="bsdhjcdb")
+boutton_connexion.grid(row=2, column= 2)
+
+test = Entry(connexion, padding= 20)
+test.grid(row=1, column=0)
+
+ 
+ 
+fenetre.mainloop()
